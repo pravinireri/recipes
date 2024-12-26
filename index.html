@@ -4,13 +4,20 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Recipes</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Recipes</h1>
-        <ul>
-            <li><a href="sub-recipes/hashbrown.html" target="_blank">Crispy Hash-Browns</a></li>
-            <li><a href="sub-recipes/cake.html" target="_blank">Chocolate Ganache Cake</a></li>
-            <li><a href="sub-recipes/donut.html" target="_blank">Yeast Raised Doughnuts</a></li>
-        </ul>
+        <h1 id="labelHeader">Recipes</h1><br><br>
+        <div id="btnContainer">
+            <form action="sub-recipes/hashbrown.html">
+                <input class="buttons" type="submit" value="Go to Hash-Browns"/>
+            </form><br>
+            <form action="sub-recipes/cake.html">
+                <input class="buttons" type="submit" value="Go to Cake"/>
+            </form><br>
+            <form action="sub-recipes/donut.html">
+                <input class="buttons" type="submit" value="Go to Donut"/>
+            </form><br>
+        </div>
     </body>
 </html>

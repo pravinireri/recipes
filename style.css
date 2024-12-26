@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+#labelHeader {
+    display: block;
+    font-size: 5em;
+    text-align: center;
+}
+
+#btnContainer {
+    text-align: center;
+}
+
+.buttons {
+    border-radius: 5px;
+    background-color: royalblue;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover {
+    background-color: rgb(15, 75, 255);
+}
