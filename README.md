@@ -1,2 +1,2 @@
 # recipes
-This is a simple recipes page, to practice all of the HTML knowledge I have acquired.
+This project is a simple recipe collection page. It was built to help me practice core web development skills like HTML, and CSS.
