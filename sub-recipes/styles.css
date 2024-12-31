@@ -1,3 +1,4 @@
+/* For desktop: */
 * {
     margin: 0px;
     padding: 10px;
@@ -35,3 +36,18 @@ p {
 #donutImg {
     margin-top: 115px;
 }
+
+@media only screen and (max-width: 1500px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+    /* For mobile phones / smaller devices */
+    .recipeContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+    }
